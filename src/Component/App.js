@@ -12,51 +12,6 @@ import Booking from "./Booking";
 
 function App() {
 
-// const[user,setUser]=useState({
-//   cname: '',
-//   cemail: '',
-//   service: '',
-//   mobile: '',
-//   detail: ''
-// });
-
-// const[errors,setErrors] = useState({})
-
-// const inputHandler=(e)=>{
-//   return setUser({...user,[e.target.name]:e.target.value});
-// }
-
-// const dataSubmit=(e)=>{
-//   e.preventDefault();
-
-//   const validationErrors = {}
-//   if(!user.cname.trim()){
-//     validationErrors.cname = "Your name is required"
-//   }
-
-//   if(!user.cemail.trim()){
-//     validationErrors.cemail = "Email required"
-//   }
-
-//     if(!user.mobile.trim()) {
-//       validationErrors.mobile = "Mobile No. is required"
-//   } else if(user.mobile.length > 1 && user.mobile.length < 11){
-//       validationErrors.password = "Mobile number is not valid"
-//   }
-
-//   setErrors(validationErrors)
-
-//   if(Object.keys(validationErrors).length === 0){
-
-//   axios.post("http://localhost:1234/ClintBooking",user)
-//     .then(res=>{
-//       alert(res.data.msg);
-//     }).catch(err=>{alert(err.data.error)}); 
-//   }
-
-//     // setUser("");
-// }
-
   return (
     <>
     <div className="container-fluid bg-dark p-0">
