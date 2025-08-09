@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html{
+    font-size: 62.5%;
+} */
+
+
+
+header{
+    padding: 0 4.8rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+
+
+.logo{
+    height: 50px;
+    width: 100px;
+}
+
+.header .web-name {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.web-name h2{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.navbar-list{
+    display: flex;
+    gap: 3.5rem;
+    list-style: none;
+    /* border: 2px solid black; */
+    align-items: center;
+    margin-top: 11px;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.navbar-link:hover,
+.navbar-link:active  {
+    color: red;
+}
+
+.mobile-navbar-btn{
+    display: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.mobile-nav-icon{
+    /* width: 4rem;
+    height: 3rem; */
+    font-size: 1.7rem;
+    color: white;
+    z-index: 999;
+}
+
+/* .mobile-nav-icon[name='close']{
+    display: none;
+} */
+
+
+
+
+@media screen and (max-width: 62em){
+
+    .mobile-navbar{
+        width: 100%;
+        background: black;
+        position: absolute;
+        top: 4rem;
+        right: 0rem;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 999;
+    }
+
+    .mobile-navbar-list{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 5px 0;
+        z-index: 999;
+    }
+    
+    .mobile-navbar-btn{
+        display: inline-block;
+        z-index: 999;
+        /* border: 1px solid black; */
+        color: white;
+        /* font-size: 1.5rem; */
+    }
+
+    .header .web-name {
+        font-size: 1.2rem;
+    }
+    
+    .navbar-list{
+        display: none;
+    }
+
+    .navbar-link{
+        padding: 4px 0;
+    }
+
+
+}

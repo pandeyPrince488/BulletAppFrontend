@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f927347.css",
+    "main.js": "/static/js/main.196369db.js",
+    "static/media/RE-riding.jpg": "/static/media/RE-riding.b083f2376b5a01f8e383.jpg",
+    "static/media/RE-store.jpg": "/static/media/RE-store.62fae1d835b80dd60aad.jpg",
+    "static/media/bike2.jpg": "/static/media/bike2.6f8fe51e868edba64165.jpg",
+    "static/media/carousel-bg-1.jpg": "/static/media/carousel-bg-1.312615edf2935273dd37.jpg",
+    "static/media/RE-store-2.jpg": "/static/media/RE-store-2.0c3dd654fca98739928e.jpg",
+    "static/media/contact_bg.jpg": "/static/media/contact_bg.2328ab1607a652db8303.jpg",
+    "index.html": "/index.html",
+    "main.0f927347.css.map": "/static/css/main.0f927347.css.map",
+    "main.196369db.js.map": "/static/js/main.196369db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f927347.css",
+    "static/js/main.196369db.js"
+  ]
+}

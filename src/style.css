@@ -1,0 +1,205 @@
+/* .setheight{
+    height: 80vh;
+} */
+.carousel-inner img {
+    width: 100%;
+    height: 90%;
+  }
+
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .7);
+    z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media (max-width: 768px) {
+    #header-carousel .carousel-item {
+        position: relative;
+        min-height: 450px;
+    }
+    
+    #header-carousel .carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.servWH{
+    height: 80vh;
+    
+}
+
+.serv-bg{
+    background-image: url(../public/images/bike2.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quality-bg{
+    background-image: url(../public/images/RE-store.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.equipment-bg{
+    background-image: url(../public/images/RE-store-2.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con{
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 10; */
+    background: rgba(0, 0, 0, .7);
+    z-index: 1;
+    width: 100%;
+    /* position: absolute; */
+    /* display: flex; */
+    /* justify-content: ; */
+    /* position:absolute;
+    bottom: 0; */
+}
+.serv-locate{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+    /* top: 5; */
+    padding: 20px;
+}
+
+/*** Facts ***/
+.fact {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../public/images/carousel-bg-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*** Footer ***/
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../public/images/bike2.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+}
+
+/* .footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+} */
+
+/* .footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+} */
+
+/* .footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+} */
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+/*** Booking ***/
+.booking {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../public/images/RE-riding.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+/* ** Service **
+.service .nav .nav-link {
+    background: var(--light);
+    transition: .5s;
+}
+
+.service .nav .nav-link.active {
+    background: var(--primary);
+}
+
+.service .nav .nav-link.active h4 {
+    color: #FFFFFF !important;
+} */
+
+
+/* Contact Page */
+.c-bg{
+    background-image: url(../public/images/contact_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+
+/* .wow{
+    border: 2px solid red;
+} */
+.bor{
+    border: 2px solid red;
+}
