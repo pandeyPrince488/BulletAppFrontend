@@ -51,7 +51,11 @@ export default function Booking() {
           alert(res.data.msg);
         })
         .catch((err) => {
-          alert(err.data.error);
+          if (err.response && err.response.data && err.response.data.error) {
+            alert(err.response.data.error);
+          } else {
+            alert("An unexpected error occurred");
+          }
         });
     }
   };
