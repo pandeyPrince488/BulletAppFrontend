@@ -45,12 +45,21 @@ export default function Booking() {
     setErrors(validationErrors);
 
     if (Object.keys(validationErrors).length === 0) {
-      // Proceed with form submission if there are no validation errors
-      axios.post('http://localhost:1234/ClintBooking', user)
+      axios.post('https://bulletappbackend.onrender.com/ClintBooking', user)
         .then((res) => {
           alert(res.data.msg);
+          // Clear form after successful submission
+          setUser({
+            cname: '',
+            cemail: '',
+            service: '',
+            mobile: '',
+            detail: ''
+          });
+          setErrors({});
         })
         .catch((err) => {
+          console.error('Axios error:', err);
           if (err.response && err.response.data && err.response.data.error) {
             alert(err.response.data.error);
           } else {
